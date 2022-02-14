@@ -6,21 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warlison</title>
+    <link rel="stylesheet" href="_css/estilow.css"/>
 </head>
 
 <body>
-
-    <p><img src="warlison_peq.jpeg" alt="warlison Ancelmo LIma" style="border-radius: 75%;"
+    
+<div id="interface">
+    
+    <section id="imgLadoA">
+    <article>
+    <caption>Warlison Ancelmo lima </caption> 
+    <p><img src="warlison_peq.jpeg" alt="warlison Ancelmo LIma" style="border-radius: 50%;"
             title="Conheça o meu perfil no linkedin"></p></a>
+    </article>
+    </section>
     <!-------------------------------------SEÇÃO 1------------------------------------------>
     <!--
         [Sessão 1 - Seu Nome]
     1 - Seu Nome Uma foto sua - Essa foto deverá ter o no máximo 200px x 200px 
     2 - Um parágrafo falando sobre você
     3 - Uma citação com o autor.-->
-    <section>
 
-        <h1>Warlison Ancelmo LIma</h1>
+    <section id="ladoB">
+        <article>
+        <h1>MINHA PRIMEIRA PÁGINA</h1>
+        <h3>Warlison Ancelmo Lima</h3>
         <p>Olá, me chamo warlison Ancelmo Lima!</p>
         <ul>
             <li>Brasileiro</li>
@@ -32,6 +42,7 @@
             <li>Pos Graduado em Engenharia de Estruturas</li>
             <li>Pos Graduado em Docência e Gestão do Ensino Superior</li>
         </ul>
+        </article>
     </section>
 
     <!-------------------------------------SEÇÃO 2------------------------------------------>
@@ -42,57 +53,45 @@
     2 - Cada assunto deverá possuir um link para algum site externo sobre o assunto. 
     Ao clicar no link, o conteúdo deverá ser mostrado em uma nova aba.-->
     <section>
-        <h2>Assuntos Estudados</h2>
-        <ol type="I">
-            <li>Estruturas de concreto armado</li>
-            <li>Docência do Ensino Superior</li>
-            <li>Extrutura de Fundação</li>
-        </ol>
-        <!-- Primeiro assunto a ser estudado-->
-        <ul>
-            <li>
-                <h3>Estruturas de concreto armado:</h3>
-            </li>
-            <ul>
-                <li>
-                    Formar profissionais competentes para atuar na área de Engenharia Civil com ênfase em estruturas de
-                    concreto,
-                    compreendendo as características e aplicações do concreto armado e protendido, o uso de estruturas
-                    mistas,
-                    a identificação dos principais tipo de fundação, bem como a execução de projetos, produção e
-                    montagem de construções pré-moldados.
-                    <a href="https://www.ibraeducacional.com.br/cursos/single/1210" target="_blank">
-                        <i>Pos Graduação Eng. Civl com Enfanse em Estrutura de Concreto</i></a>
-                </li>
-            </ul>
-        </ul>
-        <!-- Segundo assunto a ser estudado-->
-        <ul>
-            <li>
-                <h3>Docência e Gestão do Ensino Superior:</h3>
-            </li>
-            <ul>
-                <li>
-                    O curso prepara profissionais para o atendimento e superação das expectativas de alunos na educação
-                    à distância.
-                    Aplica habilidades e técnicas, potencializando o processo de aprendizagem e desenvolvendo
-                    competências referentes
-                    às dimensões cognitivas e pedagógicas do professor do ensino superior a partir da reflexão sobre o
-                    docente do
-                    século XXI, do debate sobre experiências profissionais da pesquisa, da atualização de conteúdos e da
-                    vivência de
-                    práticas educacionais próprias para o ensino superior.
-                    <a href="https://www.ibraeducacional.com.br/cursos/single/873" target="_blank">
-                        <i>Pos Graduação Docência e Gestão do Ensino Superior</i></a>
-            </ul>
-        </ul>
+        <h3>Assuntos Estudados</h3>
 
-        <ul>
-            <li>
-                <h3>Estruturas de Fundações</h3>
-            </li>
-            <ul>
-                <li>
+        <table border="1">
+        <thead>
+            <th>Estruturas de concreto armado</th>
+        </thead>
+        <!-- Primeiro assunto a ser estudado-->
+        <tr>
+            <td>Formar profissionais competentes para atuar na área de Engenharia Civil com ênfase em estruturas de
+                concreto,
+                compreendendo as características e aplicações do concreto armado e protendido, o uso de estruturas
+                mistas,
+                a identificação dos principais tipo de fundação, bem como a execução de projetos, produção e
+                montagem de construções pré-moldados.
+                <a href="https://www.ibraeducacional.com.br/cursos/single/1210" target="_blank">
+                <i>Pos Graduação Eng. Civl com Enfanse em Estrutura de Concreto</i></a>
+            </td>
+        </tr>
+        <!-- Segundo assunto a ser estudado-->
+        <thead>
+            <th>Extrutura de Fundação</th>
+        </thead>
+        <tr>
+            <td>
+                O curso prepara profissionais para o atendimento e superação das expectativas de alunos na educação
+                à distância. Aplica habilidades e técnicas, potencializando o processo de aprendizagem e desenvolvendo
+                competências referentes às dimensões cognitivas e pedagógicas do professor do ensino superior a partir da reflexão sobre o
+                docente do século XXI, do debate sobre experiências profissionais da pesquisa, da atualização de conteúdos e da vivência de
+                práticas educacionais próprias para o ensino superior.
+                <a href="https://www.ibraeducacional.com.br/cursos/single/873" target="_blank">
+                <i>Pos Graduação Docência e Gestão do Ensino Superior</i></a>
+            </td>
+        </tr>
+        
+        <thead>
+            <th>Docência do Ensino Superior</th>
+        </thead>
+        <tr>
+            <td>
                     As fundações, nada mais é que um processo de transmissão de cargas da construção ao solo e se dá
                     pelo uso de
                     elementos que permita esta distribuição através das vigas, pilares paredes, sapatas e estacas afim
@@ -100,8 +99,10 @@
                     a estabilidade da estrutura.
                     <a href="https://nelsoschneider.com.br/comunidade-de-estruturas-e-fundacoes/"
                         target="_blank"><i>Fundação e sua importância</i></a>
-            </ul>
-        </ul>
+
+            </td>
+        </tr>
+    </table>
     </section>  
 
     <!-------------------------------------SEÇÃO 3------------------------------------------>
@@ -114,7 +115,7 @@
     -->
 
     <section>
-    <h2>Assuntos A ser Estudados</h2>
+    <h3>Assuntos A ser Estudados</h3>
     <ol type="I">
         <li>Hidrologia <a href="https://www.portalsaofrancisco.com.br/meio-ambiente/hidrologia" target="_blank"
             title="A importância do estudos sobre hidrologia">aqui</a></li>
@@ -134,7 +135,7 @@
 -->
 
     <section>
-        <h2>Grade Curricular</h2>
+        <h3>Grade Curricular</h3>
         <!-- codigo table e pra criar tabelas-->
         <table border="1">
             <caption>Grade Curricular de Warlison Ancelmo Lima</caption>
@@ -172,5 +173,6 @@
         </table>
         <p>The And</p>
     </section>
+</div>
 </body>
 </html>
