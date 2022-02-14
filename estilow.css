@@ -11,6 +11,7 @@ div#interface {
     margin: 20px auto 20px auto;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+
 }
 p { 
     text-align: justify; /*Parafrago justificado*/
@@ -29,6 +30,13 @@ a {
     text-align: justify; /*Parafrago justificado*/
     text-indent: 5px; /*inicio de paragrafo*/ 
  }
+ 
+ td{
+   text-align: justify; /*Parafrago justificado*/
+   text-indent: 5px; /*inicio de paragrafo*/
+ }
+
+
  a:hover {
      text-decoration: underline;   
  }
@@ -43,8 +51,7 @@ a {
  section#ladoB {
     display: block;
     width: 900px; /* largura do texto na esquerda*/
-    
-    
+      
      }
 
  article#ladob {
